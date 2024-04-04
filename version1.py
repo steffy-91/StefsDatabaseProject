@@ -15,7 +15,7 @@ def run_query(query, parameters=()):
 
     # Establishing connection to database
     try:
-        conn = psycopg2.connect(host = "localhost", dbname = "studentdb", port = 5432, user = "postgres", password = "superuser")
+        conn = psycopg2.connect(host = "localhost", dbname = "studentdb", port = "#####", user = "#####", password = "#####")
     
     # Cursor to execute SQL queries using Python shell
         cur = conn.cursor()
